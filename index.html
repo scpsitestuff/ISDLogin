@@ -3,7 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login Page</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/callbacklogo.png" />
+    <!-- Stylesheet -->
+    <link rel="Stylesheet" href="stylesheet.css" />
+    <!-- Script -->
+    <script src="login.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div id="watermark">
+      <img style="position: absolute" src="images/watermark.png" />
+    </div>
+
+    <div id="logoTitle">
+      <img id="spinny" style="width: 220px" src="images/ISD.webp" />
+      <h1 style="margin-left: 20px">Welcome to the ISD Login Page</h1>
+    </div>
+
+    <div id="LoginStuff">
+      <h1>Enter Credentials</h1>
+      <br />
+      <input id="user" placeholder="Name:" />
+      <br />
+      <input id="pass" type="password" placeholder="Password:" />
+      <br />
+      <button onclick="loginButton()" type="submit">Submit</button>
+    </div>
+  </body>
 </html>

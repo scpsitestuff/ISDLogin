@@ -1,0 +1,57 @@
+@font-face {
+    font-family: scpFont;
+    src: url(Font/scpFont.otf);
+}
+
+
+body {
+    font-family: scpFont;
+    font-size: large;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+
+input {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+}
+
+/* ID's */
+#watermark {
+    margin-top: 50px;
+    display: flex;
+    place-content: center;
+    opacity: 0.03;
+    pointer-events: none;
+}
+
+#logoTitle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    pointer-events: none;
+}
+
+#LoginStuff {
+    margin-top: 170px;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+}
+
+#spinny {
+    animation: spinny 250s infinite linear;
+}
+
+/* Animations */
+@keyframes spinny {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
