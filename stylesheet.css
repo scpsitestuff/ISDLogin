@@ -43,7 +43,7 @@ button {
 }
 
 #spinny {
-    animation: spinny 250s infinite linear;
+    animation: spinny 150s infinite linear;
 }
 
 /* Animations */
