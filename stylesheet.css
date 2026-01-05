@@ -3,12 +3,12 @@
     src: url(Font/scpFont.otf);
 }
 
-
 body {
     font-family: scpFont;
     font-size: large;
     color: white;
     background-color: rgb(58, 58, 58);
+    margin: 0;
 }
 
 input {
@@ -28,6 +28,11 @@ button {
     pointer-events: none;
 }
 
+#watermarkImage {
+    width:900px;
+    height: 900px;
+}
+
 #logoTitle {
     display: flex;
     align-items: center;
@@ -36,7 +41,7 @@ button {
 }
 
 #LoginStuff {
-    margin-top: 170px;
+    margin-top: 15px;
     display: grid;
     place-items: center;
     font-size: 25px;
